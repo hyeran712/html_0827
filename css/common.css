@@ -1,0 +1,408 @@
+@charset "UTF-8";
+/* =========================
+   HEADER
+========================= */
+
+.header {
+  width: 100%;
+  border-top: 3px solid #009b72;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.header-inner {
+  width: 1200px;
+  height: 70px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+
+/* =========================
+   로고
+========================= */
+
+.logo {
+  width: 260px;
+  margin: 0;
+
+  font-size: 25px;
+}
+
+.logo a {
+  color: #075c3d;
+  text-decoration: none;
+}
+
+/* =========================
+   검색창
+========================= */
+
+.search-box {
+  width: 350px;
+
+  display: flex;
+  align-items: center;
+
+  border-bottom: 2px solid #0b6b4c;
+}
+
+.search-box input {
+  width: 100%;
+
+  padding: 10px 5px;
+
+  border: none;
+  outline: none;
+
+  font-size: 15px;
+}
+
+.search-box button {
+  border: none;
+
+  background-color: transparent;
+
+  font-size: 24px;
+  color: #08674b;
+
+  cursor: pointer;
+}
+
+/* =========================
+   HEADER ICON
+========================= */
+
+.header-icons {
+  margin-left: auto;
+
+  display: flex;
+  align-items: center;
+
+  gap: 24px;
+}
+
+.header-icon {
+  position: relative;
+
+  width: 28px;
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #222;
+}
+
+.header-icon svg {
+  width: 27px;
+  height: 27px;
+
+  fill: none;
+  stroke: #222;
+  stroke-width: 1.4;
+
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* 장바구니 숫자 */
+
+.cart-icon span {
+  position: absolute;
+
+  top: -7px;
+  right: -7px;
+
+  width: 16px;
+  height: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background-color: #ff3366;
+  color: #fff;
+
+  font-size: 10px;
+  font-weight: 700;
+}
+
+/* =========================
+   NAV
+========================= */
+
+.nav {
+  width: 100%;
+
+  border-bottom: 1px solid #ddd;
+
+  background-color: #fff;
+}
+
+.nav-inner {
+  width: 1200px;
+  height: 45px;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.main-menu li {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.main-menu li a {
+  padding: 0 13px;
+
+  color: #111;
+  text-decoration: none;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.main-menu li a:hover {
+  color: #00856a;
+}
+
+/* 전체 카테고리 */
+
+.main-menu .category {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.main-menu .category a {
+  padding: 0 18px;
+}
+
+/* 로그인 */
+
+.member-menu {
+  margin-left: auto;
+
+  display: flex;
+
+  gap: 7px;
+
+  font-size: 11px;
+  color: #888;
+}
+
+.member-menu a {
+  color: #777;
+  text-decoration: none;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+  width: 100%;
+  background-color: #fff;
+}
+
+
+/* =========================
+   FOOTER 상단 메뉴
+========================= */
+
+.footer-menu {
+  width: 100%;
+
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #eee;
+}
+
+.footer-menu-inner {
+  width: 1200px;
+  height: 55px;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* 회사소개 메뉴 */
+
+.footer-menu ul {
+  display: flex;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.footer-menu li {
+  display: flex;
+  align-items: center;
+}
+
+.footer-menu li + li::before {
+  content: "";
+
+  width: 1px;
+  height: 12px;
+
+  margin: 0 15px;
+
+  background-color: #ddd;
+}
+
+.footer-menu a {
+  color: #777;
+  text-decoration: none;
+
+  font-size: 12px;
+}
+
+.footer-menu strong {
+  color: #222;
+  font-weight: 700;
+}
+
+
+/* CJ그룹계열사 */
+
+.family-site {
+  width: 180px;
+  height: 32px;
+
+  padding: 0 10px;
+
+  border: 1px solid #ccc;
+
+  background-color: #fff;
+
+  font-size: 12px;
+  color: #555;
+}
+
+/* =========================
+   FOOTER 회사정보
+========================= */
+
+.footer-info {
+  padding: 30px 0 50px;
+}
+
+.footer-info-inner {
+  width: 1200px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns:
+    150px
+    2fr
+    1fr
+    1fr;
+
+  gap: 35px;
+
+  align-items: start;
+}
+
+/* =========================
+   FOOTER 로고
+========================= */
+
+.footer-logo {
+  padding-top: 10px;
+}
+
+.footer-logo img {
+  width: 130px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* 회사정보 */
+
+.company-info h3,
+.customer-center h3,
+.payment-info h3 {
+  margin: 0 0 10px;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.company-info p,
+.customer-center p,
+.payment-info p {
+  margin: 4px 0;
+
+  color: #666;
+
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.copyright {
+  margin-top: 10px !important;
+}
+
+/* 고객센터 */
+
+.customer-center > strong {
+  display: block;
+
+  margin-bottom: 5px;
+
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.customer-links {
+  display: flex;
+
+  gap: 12px;
+
+  margin-top: 8px;
+}
+
+.customer-links a {
+  color: #333;
+  text-decoration: none;
+
+  font-size: 11px;
+}
+
+/* 구매안전서비스 */
+
+.payment-info a {
+  color: #333;
+
+  font-size: 11px;
+}

@@ -1,0 +1,50 @@
+[
+{
+    "id": 1,
+    "name": "슈프림 경북 고당도 세척사과 홈 2kg(8~10입)",
+    "price": 25365,
+    "image": "./img/02_fruit/fruit1.jpg"
+},
+{
+    "id": 2,
+    "name": "슈프림 프리미엄 고당도 머스크멜론 1.6kg(1입)",
+    "price": 18430,
+    "image": "./img/02_fruit/fruit2.webp"
+},
+{
+    "id": 3,
+    "name": "볶음밥용 국내산 냉동 혼합채소 500g",
+    "price": 8455,
+    "image": "./img/02_fruit/fruit3.webp"
+},
+{
+    "id": 4,
+    "name": "프로상 유기농 홀 토마토 660g",
+    "price": 13395,
+    "image": "./img/02_fruit/fruit4.webp"
+},
+{
+    "id": 5,
+    "name": "프로상 유기농 스위트 옥수수콘 345g",
+    "price": 9785,
+    "image": "./img/02_fruit/fruit5.webp"
+},
+{
+    "id": 6,
+    "name": "이츠웰 원터치 스위트콘 425g",
+    "price": 2500,
+    "image": "./img/02_fruit/fruit6.webp"
+},
+{
+    "id": 7,
+    "name": "국산 냉동 대파 500g",
+    "price": 6840,
+    "image": "./img/02_fruit/fruit7.webp"
+},
+{
+    "id": 8,
+    "name": "이츠웰 냉동블루베리 1kg x 3팩",
+    "price": 30685,
+    "image": "./img/02_fruit/fruit8.webp"
+}
+]

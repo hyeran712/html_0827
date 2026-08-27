@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "비비고 왕교자 1.05kg",
+    "price": 9413,
+    "image": "./img/03_mandu/mandu1.webp"
+  },
+  {
+    "id": 2,
+    "name": "[첫구매전용] 비비고 왕교자 1.05kgX2개",
+    "price": 22960,
+    "image": "./img/03_mandu/mandu2.webp"
+  },
+  {
+    "id": 3,
+    "name": "비비고 김치왕교자 1.05kg",
+    "price": 10513,
+    "image": "./img/03_mandu/mandu3.webp"
+  },
+  {
+    "id": 4,
+    "name": "[더마켓ONLY] 얇은피 왕교자 1.05kgX2개",
+    "price": 18240,
+    "image": "./img/03_mandu/mandu4.webp"
+  },
+  {
+    "id": 5,
+    "name": "[식물성플랜테이블] 왕교자 1.05kg",
+    "price": 11107,
+    "image": "./img/03_mandu/mandu5.webp"
+  },
+  {
+    "id": 6,
+    "name": "[무료배송] 비비고 통새우만두 200gX6개",
+    "price": 26340,
+    "image": "./img/03_mandu/mandu6.webp"
+  },
+  {
+    "id": 7,
+    "name": "[1+1] 비비고 물만두 315g",
+    "price": 7980,
+    "image": "./img/03_mandu/mandu7.webp"
+  },
+  {
+    "id": 8,
+    "name": "[무료배송] 비비고 닭가슴살 만두+김치만두 세트",
+    "price": 15914,
+    "image": "./img/03_mandu/mandu8.webp"
+  }
+]

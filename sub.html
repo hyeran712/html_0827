@@ -1,0 +1,831 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CJ THE MARKET</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/sub.css" />
+  </head>
+
+  <body>
+    <!-- =========================
+       HEADER
+  ========================= -->
+
+    <header class="header">
+      <div class="header-inner">
+        <!-- 로고 -->
+        <h1 class="logo">
+          <a href="#">CJ THE MARKET</a>
+        </h1>
+
+        <!-- 검색창 -->
+        <div class="search-box">
+          <input type="text" placeholder="상품을 검색하세요" />
+          <button type="button">⌕</button>
+        </div>
+
+        <!-- 오른쪽 아이콘 -->
+        <div class="header-icons">
+          <!-- 배송 아이콘 -->
+          <a href="#" class="header-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 6h11v10H3z"></path>
+              <path d="M14 9h4l3 3v4h-7z"></path>
+              <circle cx="7" cy="18" r="2"></circle>
+              <circle cx="18" cy="18" r="2"></circle>
+            </svg>
+          </a>
+
+          <!-- 사람 아이콘 -->
+          <a href="#" class="header-icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="7" r="4"></circle>
+              <path d="M4 21c0-4.5 3.5-8 8-8s8 3.5 8 8"></path>
+            </svg>
+          </a>
+
+          <!-- 장바구니 -->
+          <a href="#" class="header-icon cart-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M2 3h3l2.5 11h10l2-7H6"></path>
+              <circle cx="9" cy="19" r="1.5"></circle>
+              <circle cx="17" cy="19" r="1.5"></circle>
+            </svg>
+
+            <span>0</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- =========================
+       NAV
+  ========================= -->
+
+    <nav class="nav">
+      <div class="nav-inner">
+        <ul class="main-menu">
+          <li class="category">
+            <a href="#">☰ &nbsp; 전체 카테고리</a>
+          </li>
+
+          <li>
+            <a href="#">실속장보기</a>
+          </li>
+
+          <li>
+            <a href="#">마켓핫딜</a>
+          </li>
+
+          <li>
+            <a href="#">신상발견</a>
+          </li>
+
+          <li>
+            <a href="#">베스트</a>
+          </li>
+
+          <li>
+            <a href="#">추석선물</a>
+          </li>
+
+          <li>
+            <a href="#">쿠폰&혜택</a>
+          </li>
+
+          <li>
+            <a href="#">이벤트</a>
+          </li>
+
+          <li>
+            <a href="#">대용량식자재</a>
+          </li>
+        </ul>
+
+        <div class="member-menu">
+          <a href="#">로그인</a>
+          <span>|</span>
+          <a href="#">고객행복센터</a>
+        </div>
+      </div>
+    </nav>
+
+    <div id="sub"></div>
+
+    <!-- =========================
+     PRODUCT DETAIL
+========================= -->
+
+    <main id="sub" class="detail-page">
+      <!-- ① 상품 구매 영역 -->
+      <section class="product-info">
+        <!-- 경로 -->
+        <div class="product-path">
+          홈
+          <span>›</span>
+          간식 · 베이커리 · 시리얼
+          <span>›</span>
+          베이커리 · 떡
+        </div>
+
+        <div class="product-info-wrap">
+          <!-- =====================
+         왼쪽 상품 이미지
+    ====================== -->
+          <div class="product-gallery">
+            <div class="product-main-image">
+              <img
+                src="./img/0_toppick/toppick4.webp"
+                alt="어리틀빗 웜그레인 저당 샌드위치"
+              />
+            </div>
+
+            <div class="product-thumbnails">
+              <button class="thumb active" type="button">
+                <img src="./img/0_toppick/toppick4.webp" alt="상품 이미지1" />
+              </button>
+
+              <button class="thumb" type="button">
+                <img src="./img/0_toppick/toppick4.webp" alt="상품 이미지2" />
+              </button>
+            </div>
+          </div>
+
+          <!-- =====================
+         오른쪽 구매 정보
+    ====================== -->
+          <div class="product-buy">
+            <div class="product-coupon">✦ +15%할인</div>
+
+            <div class="product-review">
+              ★ 0.0
+              <a href="#">리뷰 0건</a>
+            </div>
+
+            <div class="product-title-row">
+              <h2>어리틀빗 웜그레인 저당 샌드위치 3종X3세트 총 9팩</h2>
+
+              <div class="product-icons">♡　⌯</div>
+            </div>
+
+            <p class="product-subtitle">🥪 저당 고단백 곡물빵 🥪</p>
+
+            <!-- 가격 -->
+            <div class="product-price">
+              <strong class="discount-rate"> 5% </strong>
+
+              <strong class="sale-price"> 51,205원 </strong>
+
+              <del class="original-price"> 53,900원 </del>
+            </div>
+
+            <!-- 원산지 -->
+            <div class="product-origin">
+              <span>원산지 : 상세설명참조</span>
+
+              <button type="button">영양정보 〉</button>
+            </div>
+
+            <!-- 적립 -->
+            <div class="benefit-box">
+              <strong> 로그인 시 최대 2,036원을 받을 수 있어요! </strong>
+
+              <p>
+                · 구매 시 최소 3% 적립
+                <span>+1,536원</span>
+              </p>
+            </div>
+
+            <!-- 쿠폰 -->
+            <button class="coupon-btn" type="button">
+              적용 가능한 15% 쿠폰이 있어요! ↓
+            </button>
+
+            <!-- 배송 -->
+            <div class="delivery-info">
+              <span class="delivery-title"> 배송정보 </span>
+
+              <div>
+                <strong>업체배송 (3일 내 발송 예정)</strong>
+
+                <p><span>냉동</span> · 무료배송</p>
+              </div>
+            </div>
+
+            <!-- 옵션 / 수량 -->
+            <div class="option-box">
+              <p>어리틀빗 웜그레인 저당 샌드위치 3종X3세트 총 9팩</p>
+
+              <div class="option-bottom">
+                <div class="quantity">
+                  <button id="minusBtn" type="button">-</button>
+
+                  <span id="quantity">1</span>
+
+                  <button id="plusBtn" type="button">+</button>
+                </div>
+
+                <strong id="optionPrice"> 51,205원 </strong>
+              </div>
+            </div>
+
+            <!-- 구매 버튼 -->
+            <div class="buy-buttons">
+              <button class="gift-btn" type="button">🎁 선물</button>
+
+              <button class="basket-btn" type="button">장바구니 담기</button>
+
+              <button class="buy-btn" type="button">바로구매</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ② 상세페이지 메뉴 -->
+      <nav class="detail-tab">
+        <a href="#product-detail">상품설명</a>
+        <a href="#product-info-detail">상세정보</a>
+        <a href="#review">후기</a>
+        <a href="#qna">문의</a>
+      </nav>
+
+      <!-- =========================
+     ③ 상품 설명
+========================= -->
+
+      <section id="product-detail" class="product-detail">
+        <div class="detail-images">
+          <img
+            src="./img/detail/detail1.webp"
+            alt="웜그레인 샌드위치 상품 소개"
+          />
+
+          <img
+            src="./img/detail/detail2.webp"
+            alt="웜그레인 샌드위치 체크포인트"
+          />
+
+          <img src="./img/detail/detail3.webp" alt="웜그레인 샌드위치 종류" />
+
+          <img
+            src="./img/detail/detail4.webp"
+            alt="웜그레인 샌드위치 보관 및 조리방법"
+          />
+        </div>
+      </section>
+
+<!-- =========================
+    ④ 상품 상세정보
+========================= -->
+
+      <section id="product-info-detail" class="product-info-detail">
+        <div class="info-inner">
+          <h2>상품정보</h2>
+
+          <table class="product-info-table">
+            <tr>
+              <th>제품명</th>
+              <td>어리틀빗 웜그레인 저당 샌드위치</td>
+            </tr>
+
+            <tr>
+              <th>식품의 유형</th>
+              <td>즉석조리식품</td>
+            </tr>
+
+            <tr>
+              <th>상품 구성</th>
+              <td>바질햄 3팩 + 트러플치킨 3팩 + 치즈스크램블에그 3팩</td>
+            </tr>
+
+            <tr>
+              <th>내용량</th>
+              <td>총 9팩</td>
+            </tr>
+
+            <tr>
+              <th>보관방법</th>
+              <td>-18℃ 이하 냉동보관</td>
+            </tr>
+
+            <tr>
+              <th>소비기한</th>
+              <td>제조일로부터 9개월 이내</td>
+            </tr>
+
+            <tr>
+              <th>원재료명 및 함량</th>
+              <td>상품 상세설명 참조</td>
+            </tr>
+
+            <tr>
+              <th>제조원</th>
+              <td>상품 상세설명 참조</td>
+            </tr>
+          </table>
+
+    <!-- 영양정보 -->
+    <div class="nutrition-info">
+
+      <h2>영양정보</h2>
+
+      <img
+        src="./img/detail/바질치킨영양정보.webp"
+        alt="어리틀빗 웜그레인 샌드위치 영양정보"
+      >
+
+      <img
+        src="./img/detail/트러플영양정보.webp"
+        alt="트러플 치킨 영양정보"
+        >
+
+      <img
+        src="./img/detail/스크램블에그영양정보.webp"
+        alt="치즈 스크램블에그 영양정보"
+        >
+
+</div>
+
+    </div>
+
+  </div>
+
+</section>
+        </div>
+      </section>
+
+<!-- =========================
+  ⑤ 상품 후기
+========================= -->
+
+<section id="review" class="review">
+
+  <div class="review-inner">
+
+    <div class="review-title">
+
+      <div>
+        <h2>상품 후기</h2>
+        <p>상품을 구매한 고객님들의 솔직한 후기입니다.</p>
+      </div>
+
+      <button class="review-write-btn" type="button">
+        후기 작성
+      </button>
+
+    </div>
+
+
+    <!-- 후기 요약 -->
+    <div class="review-summary">
+
+      <div class="review-score">
+        <strong>4.8</strong>
+
+        <div>
+          <p class="review-stars">★★★★★</p>
+          <span>총 128개의 후기</span>
+        </div>
+      </div>
+
+
+      <div class="review-rate">
+
+        <div>
+          <span>맛</span>
+          <strong>96%</strong>
+        </div>
+
+        <div>
+          <span>간편함</span>
+          <strong>94%</strong>
+        </div>
+
+        <div>
+          <span>재구매 의사</span>
+          <strong>91%</strong>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- 후기 정렬 -->
+    <div class="review-filter">
+
+      <strong>전체 후기 128개</strong>
+
+      <div>
+        <button type="button" class="active">
+          추천순
+        </button>
+
+        <button type="button">
+          최신순
+        </button>
+      </div>
+
+    </div>
+
+
+    <!-- 후기 1 -->
+    <article class="review-item">
+
+      <div class="review-user">
+
+        <strong>김**</strong>
+
+        <span class="purchase-badge">
+          구매
+        </span>
+
+      </div>
+
+
+      <div class="review-content">
+
+        <p class="review-stars">
+          ★★★★★
+        </p>
+
+        <strong>
+          아침 식사로 정말 간편해요
+        </strong>
+
+        <p class="review-text">
+          출근 전에 간단하게 데워 먹기 좋아요.
+          빵도 퍽퍽하지 않고 속재료가 생각보다 든든해서
+          한 끼 식사로 괜찮았습니다.
+        </p>
+
+        <span class="review-product">
+          어리틀빗 웜그레인 저당 샌드위치 3종 세트
+        </span>
+
+        <span class="review-date">
+          2026.08.18
+        </span>
+
+      </div>
+
+    </article>
+
+
+    <!-- 후기 2 -->
+    <article class="review-item">
+
+      <div class="review-user">
+
+        <strong>이**</strong>
+
+        <span class="purchase-badge">
+          구매
+        </span>
+
+      </div>
+
+
+      <div class="review-content">
+
+        <p class="review-stars">
+          ★★★★★
+        </p>
+
+        <strong>
+          트러플 치킨이 제일 맛있어요
+        </strong>
+
+        <p class="review-text">
+          세 가지 맛을 골고루 먹어봤는데
+          트러플 치킨이 가장 취향이었어요.
+          냉동 제품인데도 데우고 나면 빵 식감이 괜찮아요.
+        </p>
+
+        <span class="review-product">
+          어리틀빗 웜그레인 저당 샌드위치 3종 세트
+        </span>
+
+        <span class="review-date">
+          2026.08.12
+        </span>
+
+      </div>
+
+    </article>
+
+
+    <!-- 후기 3 -->
+    <article class="review-item">
+
+      <div class="review-user">
+
+        <strong>박**</strong>
+
+        <span class="purchase-badge">
+          구매
+        </span>
+
+      </div>
+
+
+      <div class="review-content">
+
+        <p class="review-stars">
+          ★★★★☆
+        </p>
+
+        <strong>
+          간단하게 먹기 좋아요
+        </strong>
+
+        <p class="review-text">
+          냉동실에 넣어두고 바쁠 때 하나씩 먹기 좋아요.
+          개인적으로는 치즈 스크램블에그가 가장 부드러웠어요.
+        </p>
+
+        <span class="review-product">
+          어리틀빗 웜그레인 저당 샌드위치 3종 세트
+        </span>
+
+        <span class="review-date">
+          2026.08.05
+        </span>
+
+      </div>
+
+    </article>
+
+
+    <!-- 페이지 -->
+    <div class="review-pagination">
+
+      <button type="button">&lt;</button>
+
+      <button type="button" class="active">
+        1
+      </button>
+
+      <button type="button">
+        2
+      </button>
+
+      <button type="button">
+        3
+      </button>
+
+      <button type="button">&gt;</button>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- =========================
+  ⑥ 상품 문의
+========================= -->
+
+<section id="qna" class="qna">
+
+  <div class="qna-inner">
+
+    <div class="qna-title">
+
+      <div>
+        <h2>상품 문의</h2>
+        <p>상품에 대해 궁금한 점을 남겨주세요.</p>
+      </div>
+
+      <button class="qna-write-btn" type="button">
+        문의하기
+      </button>
+
+    </div>
+
+
+    <!-- 문의 안내 -->
+    <div class="qna-guide">
+
+      <p>
+        · 상품과 관련 없는 문의는 고객행복센터를 이용해주세요.
+      </p>
+
+      <p>
+        · 주문/배송/교환/환불 문의는 1:1 문의를 이용해주세요.
+      </p>
+
+    </div>
+
+
+    <!-- 문의 목록 -->
+    <div class="qna-list">
+
+      <!-- 문의 1 -->
+      <div class="qna-item">
+
+        <div class="qna-status">
+          답변완료
+        </div>
+
+        <div class="qna-question">
+
+          <strong>
+            해동 후 바로 먹어도 되나요?
+          </strong>
+
+          <span class="secret">
+            🔒
+          </span>
+
+        </div>
+
+        <div class="qna-user">
+          김**
+        </div>
+
+        <div class="qna-date">
+          2026.08.20
+        </div>
+
+      </div>
+
+
+      <!-- 문의 2 -->
+      <div class="qna-item">
+
+        <div class="qna-status">
+          답변완료
+        </div>
+
+        <div class="qna-question">
+
+          <strong>
+            3가지 맛이 각각 몇 개씩 들어있나요?
+          </strong>
+
+        </div>
+
+        <div class="qna-user">
+          이**
+        </div>
+
+        <div class="qna-date">
+          2026.08.16
+        </div>
+
+      </div>
+
+
+      <!-- 문의 3 -->
+      <div class="qna-item">
+
+        <div class="qna-status waiting">
+          답변대기
+        </div>
+
+        <div class="qna-question">
+
+          <strong>
+            냉동 보관 기간이 궁금해요.
+          </strong>
+
+          <span class="secret">
+            🔒
+          </span>
+
+        </div>
+
+        <div class="qna-user">
+          박**
+        </div>
+
+        <div class="qna-date">
+          2026.08.11
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- 페이지 번호 -->
+    <div class="qna-pagination">
+
+      <button type="button">&lt;</button>
+
+      <button type="button" class="active">
+        1
+      </button>
+
+      <button type="button">
+        2
+      </button>
+
+      <button type="button">
+        3
+      </button>
+
+      <button type="button">&gt;</button>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- =========================
+    FOOTER
+========================= -->
+
+    <footer class="footer">
+      <!-- 푸터 상단 메뉴 -->
+      <div class="footer-menu">
+        <div class="footer-menu-inner">
+          <ul>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">고객행복센터</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li>
+              <a href="#"><strong>개인정보처리방침</strong></a>
+            </li>
+            <li><a href="#">프라임회원이용약관</a></li>
+            <li><a href="#">법적고지</a></li>
+          </ul>
+
+          <select class="family-site">
+            <option>CJ그룹계열사</option>
+            <option>CJ제일제당</option>
+            <option>CJ대한통운</option>
+            <option>CJ올리브영</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- 푸터 회사정보 -->
+      <div class="footer-info">
+        <div class="footer-info-inner">
+          <!-- 로고 -->
+          <div class="footer-logo">
+            <img src="./img/logo.jpg" alt="CJ제일제당" />
+          </div>
+
+          <!-- 회사정보 -->
+          <div class="company-info">
+            <h3>씨제이제일제당㈜</h3>
+
+            <p>
+              대표이사 : 손경식, 윤석춘 &nbsp; | &nbsp; 사업자등록번호 :
+              104-86-09535
+            </p>
+
+            <p>서울특별시 중구 동호로 330 CJ제일제당센터</p>
+
+            <p>
+              통신판매업신고 중구 제 07767호 &nbsp; | &nbsp; 개인정보보호책임자
+              : 류석진
+            </p>
+
+            <p>이메일 : cjone@cj.net</p>
+
+            <p class="copyright">© CJ CHEILJEDANG CORP. ALL RIGHTS RESERVED.</p>
+          </div>
+
+          <!-- 고객센터 -->
+          <div class="customer-center">
+            <h3>고객행복센터</h3>
+
+            <strong>1668-1953</strong>
+
+            <p>문자 상담 가능</p>
+
+            <p>
+              평일 09시 ~ 18시<br />
+              토요일 09시 ~ 12시
+            </p>
+
+            <div class="customer-links">
+              <a href="#">주문 배송 조회</a>
+              <a href="#">1:1문의</a>
+              <a href="#">자주찾는 질문</a>
+            </div>
+          </div>
+
+          <!-- 결제안전서비스 -->
+          <div class="payment-info">
+            <h3>구매안전서비스</h3>
+
+            <p>
+              본 사이트는 Toss Payments의<br />
+              결제대금 예치서비스에 가입되어 있습니다.
+            </p>
+
+            <a href="#">서비스가입 확인</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/sub.js"></script>
+  </body>
+</html>

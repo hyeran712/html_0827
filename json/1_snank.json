@@ -1,0 +1,50 @@
+[
+{
+    "id": 1,
+    "name": "맛밤 80gX20개",
+    "price": 48110,
+    "image": "./img/01_snank/snank1.webp"
+},
+{
+    "id": 2,
+    "name": "맥스봉 직화구이 꼬치바 오리지널 70gX10개",
+    "price": 9890,
+    "image": "./img/01_snank/snank2.webp"
+},
+{
+    "id": 3,
+    "name": "맥스봉 치즈 27gX40개",
+    "price": 19012,
+    "image": "./img/01_snank/snank3.webp"
+},
+{
+    "id": 4,
+    "name": "정미경 구황작물빵 10종세트",
+    "price": 38000,
+    "image": "./img/01_snank/snank4.webp"
+},
+{
+    "id": 5,
+    "name": "온정한과 한입한과 200g 3종 세트",
+    "price": 34900,
+    "image": "./img/01_snank/snank5.webp"
+},
+{
+    "id": 6,
+    "name": "상하목장 프로즌 그릭요거트 Delight 플레인 350ml 3입",
+    "price": 23655,
+    "image": "./img/01_snank/snank6.webp"
+},
+{
+    "id": 7,
+    "name": "상하목장 얼려먹는 아이스크림 밀크 85ml 24팩",
+    "price": 25555,
+    "image": "./img/01_snank/snank7.webp"
+},
+{
+    "id": 8,
+    "name": "온정한과 통밤과즐 600g",
+    "price": 23900,
+    "image": "./img/01_snank/snank8.webp"
+}
+]

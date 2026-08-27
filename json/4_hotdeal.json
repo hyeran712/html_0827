@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "[26추석 오늘특가] 스팸 12호X2개",
+    "original_price": 103900,
+    "discount": 43,
+    "price": 59166,
+    "image": "./img/04_hotdeal/hotdeal1.webp"
+  },
+  {
+    "id": 2,
+    "name": "[무료배송] 더건강한 소스닭가슴살 10개 세트",
+    "original_price": 49900,
+    "discount": 56,
+    "price": 21912,
+    "image": "./img/04_hotdeal/hotdeal2.webp"
+  },
+  {
+    "id": 3,
+    "name": "[26추석 오늘특가] 스팸X리오마레 에디션X2개",
+    "original_price": 139800,
+    "discount": 26,
+    "price": 103452,
+    "image": "./img/04_hotdeal/hotdeal3.webp"
+  },
+  {
+    "id": 4,
+    "name": "비비고 왕교자+김치왕교자 1.05kg",
+    "original_price": 34460,
+    "discount": 32,
+    "price": 16632,
+    "image": "./img/04_hotdeal/hotdeal4.webp"
+  }
+]

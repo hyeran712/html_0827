@@ -1,0 +1,215 @@
+/* =========================
+   MOBILE
+========================= */
+
+@media screen and (max-width: 768px) {
+  /* 전체 가로 스크롤 방지 */
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* =========================
+     HEADER
+  ========================= */
+
+  .header-inner {
+    width: 100%;
+    height: 60px;
+    padding: 0 16px;
+  }
+
+  .logo {
+    width: auto;
+    font-size: 20px;
+  }
+
+  .search-box {
+    display: none;
+  }
+
+  .header-icons {
+    gap: 15px;
+  }
+
+  /* =========================
+     NAV
+  ========================= */
+
+  .nav-inner {
+    width: 100%;
+    height: 45px;
+
+    overflow-x: auto;
+  }
+
+  .main-menu {
+    width: max-content;
+  }
+
+  .main-menu li a {
+    padding: 0 14px;
+
+    white-space: nowrap;
+    font-size: 12px;
+  }
+
+  .member-menu {
+    display: none;
+  }
+
+  /* =========================
+     배너
+  ========================= */
+
+  .main-banner {
+    width: 100%;
+    height: 220px;
+
+    margin-bottom: 35px;
+  }
+
+  .main-banner img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  .banner-text {
+    left: 30px;
+  }
+
+  .banner-text h2 {
+    font-size: 22px;
+  }
+
+  .banner-prev {
+    left: 15px;
+  }
+
+  .banner-next {
+    right: 15px;
+  }
+
+  .banner-page {
+    right: 20px;
+  }
+
+  /* =========================
+     TOP PICK
+  ========================= */
+
+  .toppick-section {
+    width: 100%;
+
+    padding: 0 20px;
+    margin: 40px auto 60px;
+  }
+
+  .toppick-section .section-title h2 {
+    font-size: 24px;
+  }
+
+  /* 모바일에서는 상품 하나씩 */
+  .toppick-list {
+    display: block;
+  }
+
+  .toppick-list > a {
+    display: block;
+
+    width: 100%;
+    margin-bottom: 45px;
+  }
+
+  .toppick-list .product-card img {
+    width: 100%;
+    height: auto;
+
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  /* =========================
+     마켓핫딜
+  ========================= */
+
+  .hotdeal-section {
+    width: 100%;
+
+    padding: 0 20px;
+  }
+
+  .hotdeal-tabs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hotdeal-list {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px 12px;
+  }
+
+  /* =========================
+     일반 상품
+  ========================= */
+
+  .product-section {
+    width: 100%;
+
+    padding: 0 20px;
+
+    margin: 60px auto;
+  }
+
+  .product-list {
+    grid-template-columns: 1fr;
+
+    gap: 35px 12px;
+  }
+
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* 카테고리 */
+  .category-menu {
+    overflow-x: auto;
+
+    justify-content: flex-start;
+  }
+
+  .category-menu li {
+    flex: none;
+
+    min-width: 120px;
+  }
+
+  /* =========================
+     FOOTER
+  ========================= */
+
+  .notice-inner,
+  .footer-menu-inner,
+  .footer-info-inner {
+    width: 100%;
+  }
+
+  .footer-info-inner {
+    display: block;
+
+    padding: 20px;
+  }
+
+  .footer-logo,
+  .company-info,
+  .customer-center,
+  .payment-info {
+    margin-bottom: 25px;
+  }
+}
