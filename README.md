@@ -4,34 +4,6 @@ CJ THE MARKET의 화면 구성을 참고해 메인 페이지와 상품 상세페
 HTML·CSS로 쇼핑몰 화면을 구성하고, JavaScript로 **JSON 기반 상품 목록 출력, 배너 슬라이드, 수량에 따른 금액 계산**을 구현했습니다.
 메인 페이지에는 768px 이하 모바일 화면에 맞춘 반응형 레이아웃을 적용했습니다.
 
-## 📌 프로젝트 소개
-
-HTML, CSS, JavaScript를 활용하여  
-쇼핑몰 메인 페이지와 상품 상세페이지를 구현했습니다.
-
-## 🛠 사용 기술
-
-- HTML5
-- CSS3
-- JavaScript
-- JSON
-- Git / GitHub
-
-## ✨ 주요 기능
-
-- 메인 배너 슬라이드
-- 상품 리스트 출력
-- JSON 데이터를 활용한 상품 렌더링
-- 상품 상세페이지
-- 메인 → 상품 상세페이지 이동
-- 수량 선택 기능
-- 모바일 반응형 레이아웃
-
-## 📱 반응형 웹
-
-PC와 모바일 화면 크기에 맞춰  
-레이아웃이 변경되도록 제작했습니다.
-
 - **진행 기간:** 2026.08
 - **프로젝트 유형:** 개인 프로젝트
 - **사용 기술:** HTML5 · CSS3 · JavaScript(ES6) · JSON · Git / GitHub
@@ -43,7 +15,9 @@ PC와 모바일 화면 크기에 맞춰
 ![PC 메인 화면](./screenshots/pc-main.png)
 
 ### 모바일 메인
-![모바일 메인 화면](./screenshots/mobile-main.png)
+<p align="center">
+  <img src="./screenshots/mobile-main.png" alt="모바일 메인 화면" width="390">
+</p>
 
 ### 상품 상세페이지
 ![상품 상세페이지](./screenshots/detail-page.png)
