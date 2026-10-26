@@ -40,13 +40,13 @@ PC와 모바일 화면 크기에 맞춰
 ## 화면 미리보기
 
 ### PC 메인
-![PC 메인 화면](./img/ex.png)
+![PC 메인 화면](./screenshots/pc-main.png)
 
 ### 모바일 메인
-![모바일 메인 화면](./img/ex2.png)
+![모바일 메인 화면](./screenshots/mobile-main.png)
 
 ### 상품 상세페이지
-![상품 상세페이지](./img/ex3.png)
+![상품 상세페이지](./screenshots/detail-page.png)
 
 ## 프로젝트 개요
 
