@@ -117,8 +117,20 @@
     margin: 40px auto 60px;
   }
 
+  /* 제목은 단어 단위로 줄바꿈하고, 페이지 버튼은 한 줄로 고정 */
+  .toppick-section .section-title {
+    gap: 12px;
+  }
+
   .toppick-section .section-title h2 {
-    font-size: 24px;
+    min-width: 0;
+    font-size: 18px;
+    word-break: keep-all;
+  }
+
+  .page-btn {
+    flex-shrink: 0;
+    white-space: nowrap;
   }
 
   /* 모바일에서는 상품 하나씩 */
