@@ -77,20 +77,29 @@
     object-fit: cover;
   }
 
+  /* 좌우 버튼과 겹치지 않도록 버튼 폭(32px) + 여백만큼 안쪽에서 시작 */
   .banner-text {
-    left: 30px;
+    left: 52px;
+    right: 52px;
   }
 
   .banner-text h2 {
     font-size: 22px;
   }
 
+  .banner-prev,
+  .banner-next {
+    width: 32px;
+    height: 40px;
+    font-size: 16px;
+  }
+
   .banner-prev {
-    left: 15px;
+    left: 10px;
   }
 
   .banner-next {
-    right: 15px;
+    right: 10px;
   }
 
   .banner-page {
